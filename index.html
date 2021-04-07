@@ -1,1 +1,38 @@
-blank
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Loodus Kõigile</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <script type="text/javascript" src="db.js"></script>
+    <div style="display: flex; flex-direction: row; position: absolute; width: 100%; height: 100%; margin: 0%;">
+        <div style="display: flex; flex-direction: column; margin: 1%; border: 1px solid burlywood;">
+            <h4>Leia mulle raba(d), mis sobivad isikutele, kellel on...</h4>
+            <hr>
+            <div><input type="checkbox" id=0>Liikumispuue (ratastool)</input></div>
+            <div><input type="checkbox" id=1>Liikumispuue (kargud)</input></div>
+            <div><input type="checkbox" id=2>Nägemisvaegus</input></div>
+            <div><input type="checkbox" id=3>Täispimedus</input></div>
+            <div><input type="checkbox" id=4>Kuulmislangus</input></div>
+            <div><input type="checkbox" id=5>Kuulmispuudus</input></div>
+            <div><input type="checkbox" id=6>Tasakaaluhäired</input></div>
+            <div><input type="checkbox" id=7>Orientatsioonihäired</input></div>
+            <div><input type="checkbox" id=8>Pulmonoloogilised häired</input></div>
+            <div><input type="checkbox" id=9>Vähene vastupidavus</input></div>
+            <div><input type="checkbox" id=10>Sclerosis multiplex</input></div>
+            <div><input type="checkbox" id=11>Parkinsoni tõbi</input></div>
+            <div><input type="checkbox" id=12>(Ligipääsetav lapsevankriga ja rulaatoriga)</input></div>
+            <hr>
+            <img src="logo.png" width="250px" height="180px"/>
+        </div>
+        <div id="tulemused" style="display: flex; flex-direction: column; margin: 1%; border: 1px solid burlywood; width: auto;">
+            <i style="text-align: center;">Tulemused saabuvad siia, kui neid on.</i>
+            <hr>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
