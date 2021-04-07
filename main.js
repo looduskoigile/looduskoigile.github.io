@@ -43,8 +43,11 @@ function looTulemus(raba) {
     const parent = document.getElementById("tulemused");
     let d = document.createElement("div");
     d.className = "tulemusWrapper";
-    let b = document.createElement("b");
+    let b = document.createElement("a");
+    b.href = "https://www.google.com/search?q=" + raba.name;
+    b.target = "_blank";
     b.innerHTML = raba.name;
+    
     d.appendChild(b);
     let len = document.createTextNode(" - " + raba.len + "km");
     d.appendChild(len);
